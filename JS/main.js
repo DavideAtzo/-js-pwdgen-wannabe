@@ -13,3 +13,6 @@ document.getElementById('firstName').innerHTML = firstName;
 document.getElementById('lastName').innerHTML = lastName;
 document.getElementById('favColor').innerHTML = favColor;
 document.getElementById('yourPassword').innerHTML = yourPassword;
+
+// Visualizzazione della password nella console
+console.log(yourPassword);
