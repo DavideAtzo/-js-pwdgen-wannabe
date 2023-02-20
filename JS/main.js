@@ -4,3 +4,6 @@
 const firstName = prompt('Inserirsci il tuo nome');
 const lastName = prompt('Inseririsci il tuo cognome');
 const favColor = prompt('Inserisci il tuo colore preferito');
+
+// Creazione password combinando gli input inseriti dall'utente 
+const yourPassword = `${firstName}${lastName}${favColor}89`;
